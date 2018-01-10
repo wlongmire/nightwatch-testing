@@ -1,0 +1,20 @@
+{
+  "name": "aaa-nightwatch-for-oe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node nightwatch.conf.BASIC.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "node_modules/.bin/nightwatch --config nightwatch.conf.BASIC.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.15",
+    "selenium-download": "^2.0.10"
+  },
+  "dependencies": {
+    "uid-safe": "^2.1.4"
+  }
+}
